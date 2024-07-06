@@ -10,3 +10,69 @@
     font-weight: weight;
     font-style: normal;
 }
+
+/* Body and common design here  */
+
+body{
+    margin: auto;
+    text-align: center;
+}
+
+.p-btn-clr{
+    background-color: rgba(255, 144, 14, 1);
+}
+/* Navbar Design here  */
+
+
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 0px 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h3{
+    font-size: 2.8rem;
+    margin: 1rem 1rem;
+    font-weight: 600;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Banner Styles  */
+
+.banner-head{
+    font-size: 3.1rem;
+    max-width: 800px;
+    margin: auto;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.banner-para{
+    font-size: 1rem;
+    color: #727272;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 0px;
+}
+.banner-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+}
