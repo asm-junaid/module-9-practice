@@ -15,7 +15,6 @@
 
 body{
     margin: auto;
-    text-align: center;
 }
 
 .p-btn-clr{
@@ -23,6 +22,7 @@ body{
 }
 main{
     max-width: 1400px;
+    margin: 0px auto;
 }
 /* Navbar Design here  */
 
@@ -57,12 +57,16 @@ header{
 
 /* Banner Styles  */
 
+.banner-header-section{
+    text-align: center;
+}
 .banner-head{
     font-size: 3.1rem;
     max-width: 800px;
     margin: auto;
     font-weight: 500;
     padding-top: 30px;
+    text-align: center;
 }
 .banner-para{
     font-size: 1rem;
@@ -70,8 +74,9 @@ header{
     max-width: 800px;
     margin: auto;
     padding: 15px 0px;
+    text-align: center;
 }
-.banner-btn{
+.primary-btn{
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
@@ -86,22 +91,39 @@ header{
 }
 
 /* Feature section Design here  */
-.fetures-section{
-    display: flex;
-    padding: 0px 250px;
-    align-items: center;
-}
-.feature-img{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
-.feature-img img{
-    width: 100%;
-}
-.feture-details{
-    margin: 0px 20px;
-}
+    .fetures-container{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .feature-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .feature-header{
+        font-size: 2.8rem;
+    }
+    .feture-details{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .feature-para{
+        font-size: 1rem;
+        color: #727272;
+    }
+    .quick-list{
+        color: #727272;
+        font-weight: 500;
+    }
+    .of-our{
+        color: #131313;
+        font-weight: 700;
+    }
+    .features-span{
+        color: #FF900E;
+        font-weight: 700;
+    }
 
 /* Responsive section Design */
 
