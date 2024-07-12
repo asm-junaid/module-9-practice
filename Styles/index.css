@@ -125,6 +125,45 @@ header{
         font-weight: 700;
     }
 
+    /* Fact Section Desigh here  */
+    .fact-section{
+        margin-bottom: 150px;
+    }
+    .fact-text-tittle{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #131313;
+        margin-bottom: 10px;
+    }
+    .fact-text-para{
+        color: #727272;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 600px;
+        margin-top: 0px;
+        margin-bottom: 70px;
+    }
+    .fact-img-card-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .img-card{
+        border-radius: 8px;
+        border: 1px solid #FF900E;
+        padding: 45px 40px;
+        text-align: center;
+    }
+    .img-card-tittle{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #424242;
+    }
+    .img-card-para{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #727272;
+    }
+
 /* Responsive section Design */
 
 /* for mobile device code */
