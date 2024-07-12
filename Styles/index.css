@@ -90,25 +90,25 @@ header{
     margin-bottom: 40px;
 }
 
-/* Feature section Design here  */
-    .fetures-container{
+/* teams section Design here  */
+    .teams-container{
         display: flex;
         align-items: center;
         margin-top: 40px;
     }
-    .feature-img-container{
+    .teams-img-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-    .feature-header{
+    .teams-header{
         font-size: 2.8rem;
     }
-    .feture-details{
+    .teams-details{
         padding-right: 50px;
         padding-left: 50px;
     }
-    .feature-para{
+    .teams-para{
         font-size: 1rem;
         color: #727272;
     }
@@ -120,7 +120,7 @@ header{
         color: #131313;
         font-weight: 700;
     }
-    .features-span{
+    .teams-span{
         color: #FF900E;
         font-weight: 700;
     }
@@ -140,13 +140,13 @@ header{
     .navbar ul li{
         margin-right: 20px;
     }
-    .feature-img-container{
+    .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .fetures-container{
+    .teams-container{
         flex-direction: column-reverse;
     }
-    .feture-details{
+    .teams-details{
         text-align: center;
     }
 }
@@ -155,10 +155,13 @@ header{
     header{
         padding: 0px 20px;
     }
-    .fetures-container{
+    .navbar ul li{
+        margin-right: 20px;
+    }
+    .teams-container{
         flex-direction: column-reverse;
     }
-    .feture-details{
+    .teams-details{
         text-align: center;
     }
 }
