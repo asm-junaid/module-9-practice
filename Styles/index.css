@@ -125,6 +125,65 @@ header{
         font-weight: 700;
     }
 
+
+    /* Feature Section Code here  */
+    .feature-section{
+        display: flex;
+        margin-top: 100px;
+    }
+    .feature-details{
+        padding: 100px;
+    }
+    .feature-details-tittle{
+        font-size: 2.8rem;
+        font-weight: 700;
+        border-left: 5px solid chocolate;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .feature-details-para{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #727272;
+    }
+    .feature-card{
+        padding: 30px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 20px;
+    }
+    .feature-card-tittle{
+        font-size: 1.2rem;
+        font-size: 400;
+        color: #131313;
+        margin-bottom: 0px;
+    }
+    .feature-card-para{
+        font-size: 1rem;
+        font-size: 400;
+        color: #727272;
+        margin-top: 10px;
+    }
+    .feature-btn{
+        text-align: center;
+        padding: 40px;
+        width: 15rem;
+        background-color: #FF900E;
+    }
+    .feature-btn h3{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #fff;
+        margin: 0;
+    }
+    .feature-btn p{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+    }
+
     /* Fact Section Desigh here  */
     .fact-section{
         margin-bottom: 150px;
